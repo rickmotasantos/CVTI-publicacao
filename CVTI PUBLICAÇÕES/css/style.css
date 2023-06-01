@@ -1,0 +1,351 @@
+*{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 auto;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'MuseoModerno', cursive;
+}
+
+body{
+    height: 100vh;
+    background-color: #ebe8e8
+}
+
+:root{
+    --color-primary: #f66b40;
+    --color-secundary: #294380;
+    --color-tertiary: #242222;
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+
+nav{
+    height: 60px;
+    width: 100%;
+    padding: 0 auto;
+    
+}
+
+nav ul{
+    float: right;
+    margin-right: 60px;
+    line-height: 5;
+}
+
+label.logo {
+    color: var(--color-black);
+    font-size: 48px;
+    line-height: 80px;
+    padding: 0 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: var(--color-black);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+
+
+
+.button{
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    font-size: 17px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.button:hover{
+    background-color: var(--color-black);
+    transform: scaleY(1.2);
+    color: #fff;
+}
+
+
+
+/* Card Footer 1*/
+
+
+.meio{
+    display: flex;
+    padding: 5px;
+    width: 100%;
+} 
+
+
+.publicações-artigos-1{
+    font-size: 64px;
+    padding: 10px 10px;
+}
+
+.publicações-artigos-1 .retangulo {
+    width: 33px;
+    height: 25px;
+    background-color: #f66b40;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -13px;
+    z-index: -1;
+}
+
+
+.card-1{
+    
+    width: 1150px;
+    margin: 5px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Card Header*/
+.card-header-1 {
+    width: 600px;
+    height: 427px;
+    overflow: hidden;
+    float: left;
+  }
+
+.card-img-1 {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+}
+
+  /* Card Body */
+.card-body-1 {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-titulo-1,
+.card-data-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.card-titulo-1{
+ font-size: 36px;
+ font-weight: 600;
+ margin-top: 20px;
+ margin-left: 40px;
+ margin-bottom: 5px;
+}
+
+.card-data-1{
+    line-height: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 22px;
+}
+
+.text-primary-1{
+    color: var(--color-primary);
+    padding-left: 5px;
+  }
+
+.datetime-1{
+    padding-left: 30px;
+}  
+
+.card-texto-1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size: 22px;
+    max-width: 699px;
+    color: #606060;
+  }
+  
+  /* Card Footer */
+.card-footer-1 {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+.compartilhe{
+    margin-left: 40px;
+    padding: 5px 0px;
+    line-height: 5px;
+}
+
+.icon-redes{
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.icon {
+    height: 30px;
+    margin-right: 25px;
+}
+
+
+
+/* Card Footer 2*/
+
+#publicações-2{
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 100px;
+    
+}
+
+.publicacao {
+    width: 100%;
+    padding-left: 40px;
+    margin: 65px 0;
+}
+
+.publicacao h1 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.conteudo-publicacoes {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+}
+
+.publicacao-em-pe {
+    width: 316px;
+    margin: 20px 0 0 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.publicacao-em-pe .img-publicacao {
+    width: 290px;
+    height: 510px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.publicacao-em-pe .img-publicacao img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.publicacao-deitada .conteudo-publicacao{
+    width: 800px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+.publicacao-deitada .conteudo-publicacao .img-publicacao {
+    width: 754px;
+    height: 190px;
+    position: relative;
+}
+
+.publicacao-deitada .conteudo-publicacao .img-publicacao img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.publicacao-em-pe .titulo-nome-data,
+.publicacao-deitada .titulo-nome-data {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.publicacao-em-pe .titulo-nome-data p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.titulo-nome-data p {
+    font-size: 16px;
+}
+
+.titulo-nome-data p span {
+    color: #606060;
+}
+
+.texto-publicacao {
+    margin-top: -15px;
+}
+.publicações-artigos-2{
+    width: 100%;
+    margin: 100px 0 85px 40px;
+}
+
+.publicacao-em-pe .texto-publicacao,
+.conteudo-publicacao .texto-publicacao {
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.publicacao-em-pe .botao-icon,
+.publicacao-deitada .conteudo-publicacao .botao-icon {
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+
+.icon img {
+    margin: 20px 0;
+}
+
+.btn-publicacao {
+    background-color: #3e63bb;
+    width: 162px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    margin: 20px 0;
+}
+
+.publicações-artigos-2 h1 {
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.aba-publicações-2 {
+    width: 100%;
+    display: flex;
+    background-color: red;
+}
+
+.conteudo-card--2-3 {
+    width: 700px;
+    height: 300px;
+}
+
+  
+  
+.footer{
+    background-color: var(--color-primary);
+}
